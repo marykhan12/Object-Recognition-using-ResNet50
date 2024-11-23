@@ -18,6 +18,22 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images divided into 10 class
 
 ---
 
+## 🔎 About ResNet50
+
+ResNet50 is a 50-layer deep convolutional neural network introduced in the groundbreaking paper *"Deep Residual Learning for Image Recognition"* by Kaiming He et al. (2015). It solves the problem of vanishing gradients in deep neural networks by introducing **residual connections**, allowing the model to learn identity mappings.
+
+**Key Components of ResNet50:**
+1. **Residual Blocks**: Skip connections bypass some layers, which helps the network learn efficiently by directly propagating gradients during backpropagation.
+2. **Bottleneck Layers**: ResNet50 uses a bottleneck structure to reduce the computational complexity while maintaining high representational power.
+3. **Deep Architecture**: It contains 50 layers, including convolutional, pooling, and fully connected layers, making it suitable for complex image recognition tasks.
+
+**Advantages:**
+- Efficient training for very deep networks.
+- High accuracy on image classification benchmarks such as ImageNet.
+- Reusability in transfer learning for various datasets, including CIFAR-10.
+
+---
+
 ## 🚀 Installation
 
 Follow these steps to set up the project:
@@ -26,7 +42,8 @@ Follow these steps to set up the project:
 ```bash
 git clone https://github.com/your_username/CIFAR10-ResNet50-ObjectRecognition.git
 cd CIFAR10-ResNet50-ObjectRecognition
-```
+
+---
 
 ### Install Dependencies
 Create a virtual environment (optional but recommended) and install the required packages:
@@ -38,7 +55,6 @@ pip install -r requirements.txt
 The CIFAR-10 dataset will be automatically downloaded using PyTorch or TensorFlow APIs when you run the scripts.
 
 ---
-
 
 ## 📊 CIFAR-10 Dataset
 
