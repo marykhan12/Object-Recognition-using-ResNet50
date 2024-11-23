@@ -1,4 +1,3 @@
-
 # CIFAR-10 Object Recognition Using ResNet50
 
 This repository demonstrates how to use a ResNet50 model to classify images in the CIFAR-10 dataset. The project covers dataset preparation, model training, evaluation, and inference using PyTorch or TensorFlow.
@@ -42,8 +41,7 @@ Follow these steps to set up the project:
 ```bash
 git clone https://github.com/your_username/CIFAR10-ResNet50-ObjectRecognition.git
 cd CIFAR10-ResNet50-ObjectRecognition
-
----
+```
 
 ### Install Dependencies
 Create a virtual environment (optional but recommended) and install the required packages:
@@ -53,6 +51,9 @@ pip install -r requirements.txt
 
 ### Install CIFAR-10 Dataset
 The CIFAR-10 dataset will be automatically downloaded using PyTorch or TensorFlow APIs when you run the scripts.
+
+---
+
 
 ---
 
@@ -99,10 +100,7 @@ python scripts/predict.py --image_path path/to/your_image.png
 
 ## 📈 Results
 
-- **Model Accuracy:** Achieved 93% accuracy on the test set.
-
-  
----
+- **Model Accuracy:** Achieved XX% accuracy on the test set.
 
 ## 🛠️ Technologies Used
 
@@ -112,7 +110,6 @@ python scripts/predict.py --image_path path/to/your_image.png
   - NumPy
   - Matplotlib
   - Seaborn
-  - TensorFlow Datasets
 
 ---
 
@@ -120,25 +117,10 @@ python scripts/predict.py --image_path path/to/your_image.png
 
 Contributions are welcome! If you have suggestions, open an issue or submit a pull request.
 
-**Steps to Contribute:**
-1. Fork the repository.
-2. Clone your forked repo:
-   ```bash
-   git clone https://github.com/your_username/CIFAR10-ResNet50-ObjectRecognition.git
-   ```
-3. Create a new branch:
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-4. Make changes and commit:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-5. Push to your branch:
-   ```bash
-   git push origin feature-branch-name
-   ```
-6. Open a pull request.
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -150,9 +132,9 @@ Contributions are welcome! If you have suggestions, open an issue or submit a pu
 ---
 
 
-### Notes:
-- Replace `your_username` and `your_email@example.com` with your actual GitHub username and email.
-- Add or modify results once the project is completed.
-- Ensure image links in the `Results` section match your file paths. 
+### What's New:
+1. **Section on ResNet50**: A detailed explanation of ResNet50's architecture and advantages.
+2. **Consistency**: Updated acknowledgments and technologies for ResNet50-specific details.
+3. **Customization Placeholder**: "93%" for accuracy can be updated after the model is trained.
 
-Let me know if you need further customizations!
+Let me know if you want further adjustments!
