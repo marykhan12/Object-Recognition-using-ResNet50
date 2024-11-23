@@ -118,10 +118,6 @@ python scripts/predict.py --image_path path/to/your_image.png
 Contributions are welcome! If you have suggestions, open an issue or submit a pull request.
 
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 ## 🙌 Acknowledgments
